@@ -6,7 +6,7 @@ const {
   assets,
   beautify,
 } = require('load-metalsmith-plugins')();
-const responsiveImages = require('./responsive-images');
+const responsiveImages = require('../');
 
 Metalsmith(__dirname) 
   .metadata({ 

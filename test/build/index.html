@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Responsive Image Testing</title>
+</head>
+
+<body>
+	<p>This is a test of the emergency website system</p>
+	<img srcset="images/resized/wallhaven-543681-380px.jpg 380w, images/resized/wallhaven-543681-420px.jpg 420w, images/resized/wallhaven-543681-768px.jpg 768w, images/resized/wallhaven-543681-992px.jpg 992w, images/resized/wallhaven-543681-1198px.jpg 1198w"
+	 sizes="(max-width: 380px) 380px, (max-width: 420px) 420px, (max-width: 768px) 768px, (max-width: 992px) 992px, 1198px" src="images/resized/wallhaven-543681-380px.jpg"
+	 alt="image test">
+	<picture>
+		<source media="(max-width: 380px)" srcset="images/art-directed/my-kittens-380px.jpg">
+		<source media="(max-width: 420px)" srcset="images/art-directed/my-kittens-420px.jpg">
+		<source media="(max-width: 768px)" srcset="images/art-directed/my-kittens-768px.jpg">
+		<source media="(max-width: 992px)" srcset="images/art-directed/my-kittens-992px.jpg">
+		<source media="(max-width: 1198px)" srcset="images/art-directed/my-kittens-1198px.jpg"><img src="images/art-directed/my-kittens-380px.jpg" alt="image test"></picture>
+</body>
+
+</html>
